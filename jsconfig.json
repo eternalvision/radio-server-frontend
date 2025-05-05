@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "#api/*": ["src/api/*"],
+      "#api": ["src/api"],
+      "#components/*": ["src/components/*"],
+      "#components": ["src/components"],
+      "#helpers/*": ["src/helpers/*"],
+      "#helpers": ["src/helpers"],
+      "#styles/*": ["src/styles/*"],
+      "#styles": ["src/styles"]
+    },
+    "allowJs": true,
+    "checkJs": true,
+    "jsx": "react-jsx",
+    "target": "ES2021",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "lib": ["ESNext", "DOM"],
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "typeAcquisition": {
+    "enable": true,
+    "include": ["jest", "react", "node"]
+  },
+  "include": ["src/**/*", "tests/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
