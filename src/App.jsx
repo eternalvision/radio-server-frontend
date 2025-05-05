@@ -1,5 +1,3 @@
 import { Track } from '#components';
 
-export const App = () => {
-  return <Track />;
-};
+export const App = () => <Track />;
